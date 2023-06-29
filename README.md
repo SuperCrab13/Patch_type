@@ -17,6 +17,14 @@ Click following links to download model weights
 And put model weights into /data/weights
 
 ## Running the code
+Suggest using the following data directory structure：<br />
+```bash
+/data/
+    └──patches/
+          └──your data
+    └──weights/
+          └──model weights
+```
 
 Running the following code to classify patches, edit the args if necessary. <br />
 The data_dir should contain the patch of WSI, but not WSI file.
@@ -24,7 +32,7 @@ The data_dir should contain the patch of WSI, but not WSI file.
 ``` 
 python get_patches.py --data_dir YOUR_DIRECTORY --cancer_type CANCER_TYPE
 ```
-
+Result will can be found in the /patch_label directory. <br />
 Visualization of the result
 
 ![](docs/visualize.jpg)
