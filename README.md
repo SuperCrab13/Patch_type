@@ -8,6 +8,12 @@ Hovernet assigns nucleis in each patch, takes the most frequently predicted nucl
 pip install -r requirement.txt
 ```
 
+## Get The Pretrained Model Weights
+Click following links to download model weights
+- [CoNSeP checkpoint](https://drive.google.com/file/d/1FtoTDDnuZShZmQujjaFSLVJLD5sAh2_P/view?usp=sharing)
+- [PanNuke checkpoint](https://drive.google.com/file/d/1SbSArI3KOOWHxRlxnjchO7_MbWzB4lNR/view?usp=sharing)
+- [MoNuSAC checkpoint](https://drive.google.com/file/d/13qkxDqv7CUqxN-l5CpeFVmc24mDw6CeV/view?usp=sharing)
+
 ## Running the code
 Running the following code to classify patches, edit the args if necessary. <br />
 The data_dir should contain the patch of WSI, but not WSI file.
