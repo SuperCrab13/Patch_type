@@ -14,7 +14,10 @@ Click following links to download model weights
 - [PanNuke checkpoint](https://drive.google.com/file/d/1SbSArI3KOOWHxRlxnjchO7_MbWzB4lNR/view?usp=sharing)
 - [MoNuSAC checkpoint](https://drive.google.com/file/d/13qkxDqv7CUqxN-l5CpeFVmc24mDw6CeV/view?usp=sharing)
 
+And put model weights into /data/weights
+
 ## Running the code
+
 Running the following code to classify patches, edit the args if necessary. <br />
 The data_dir should contain the patch of WSI, but not WSI file.
 
