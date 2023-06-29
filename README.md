@@ -8,10 +8,10 @@ pip install -r requirement.txt
 ```
 
 ## Running the code
-Running the following code to classify patches, considering edit the 'root_dir' argument.
+Running the following code to classify patches
 
 ``` 
-python get_patches.py --root_dir YOUR_DIR
+python get_patches.py
 ```
 
 ## Related Project:
