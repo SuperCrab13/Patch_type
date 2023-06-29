@@ -14,6 +14,6 @@ Running the following code to classify patches, considering edit the 'root_dir' 
 python get_patches.py --root_dir YOUR_DIR
 ```
 
-Related project:
+## Related Project:
 - [HoverNet](https://www.sciencedirect.com/science/article/abs/pii/S1361841519301045?via%3Dihub)
 - [HEAT](https://github.com/HKU-MedAI/WSI-HGNN)
