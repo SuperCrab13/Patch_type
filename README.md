@@ -18,7 +18,7 @@ python get_patches.py --data_dir YOUR_DIRECTORY --cancer_type CANCER_TYPE
 
 Visualization of the result
 
-![](docs/visualize.jpeg)
+![](docs/visualize.jpg)
 
 ## Related Project:
 - [HoverNet](https://www.sciencedirect.com/science/article/abs/pii/S1361841519301045?via%3Dihub)
