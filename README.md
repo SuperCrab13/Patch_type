@@ -32,7 +32,7 @@ The data_dir should contain the patch of WSI, but not WSI file.
 ``` 
 python get_patches.py --data_dir YOUR_DIRECTORY --cancer_type CANCER_TYPE
 ```
-Result will can be found in the /patch_label directory. <br />
+Result will be found in the /patch_label directory. <br />
 Visualization of the result
 
 ![](docs/visualize.jpg)
