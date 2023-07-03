@@ -14,12 +14,12 @@ Click following links to download model weights
 - [PanNuke checkpoint](https://drive.google.com/file/d/1SbSArI3KOOWHxRlxnjchO7_MbWzB4lNR/view?usp=sharing)
 - [MoNuSAC checkpoint](https://drive.google.com/file/d/13qkxDqv7CUqxN-l5CpeFVmc24mDw6CeV/view?usp=sharing)
 
-And put model weights into /data/weights
+And put model weights into ./data/weights
 
 ## Running the code
 Suggest using the following data directory structure：<br />
 ```bash
-/data/
+./data/
     └──patches/
           └──your data
     └──weights/
@@ -32,7 +32,7 @@ The data_dir should contain the patch of WSI, but not WSI file.
 ``` 
 python get_patches.py --data_dir YOUR_DIRECTORY --cancer_type CANCER_TYPE
 ```
-Result will be found in the /patch_label directory. <br />
+Result will be found in the ./patch_label directory. <br />
 Visualization of the result
 
 ![](docs/visualize.jpg)
