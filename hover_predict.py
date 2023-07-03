@@ -76,7 +76,7 @@ class Hovernet_infer:
             'batch_size': config['batch_size'],
         }
 
-        model_desc = import_module("models.hovernet.net_desc")
+        model_desc = import_module("hovernet.net_desc")
         model_creator = getattr(model_desc, "create_model")
         net = model_creator(**method_args['method']["model_args"])
         saved_state_dict = torch.load(method_args['method']["model_path"])["desc"]
@@ -85,7 +85,7 @@ class Hovernet_infer:
         net = torch.nn.DataParallel(net)
         net = net.to("cuda")
 
-        module_lib = import_module("models.hovernet.run_desc")
+        module_lib = import_module("hovernet.run_desc")
         run_step = getattr(module_lib, "infer_step")
         self.run_infer = lambda input_batch: run_step(input_batch, net)
 
