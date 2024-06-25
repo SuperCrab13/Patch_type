@@ -19,9 +19,9 @@ And put model weights into ./data/weights
 ## Running the code
 Suggest using the following data directory structure：<br />
 ```bash
-./data/
-    └──patches/
-          └──your data
+DATA_DIRECTORY
+    └──WSI_NAME/
+          └──PATCHES
     └──weights/
           └──model weights
 ```
